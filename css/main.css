@@ -67,7 +67,7 @@ div#slider figure {
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 12s slidy infinite; 
+  animation: 3s slidy infinite; 
 }
 .navbar-inverse {
     border: none;
@@ -76,8 +76,8 @@ div#slider figure {
     background-color: #34495e;
 }
 #service{
-	background-color: #78E4A6;
-	padding: 50px 0;
+    background-color: #78E4A6;
+    padding: 50px 0;
 }
 /*iconos*/
 .icon-md {
@@ -94,49 +94,49 @@ div#slider figure {
 }
 
 .media-body{
-	padding: 5px auto;
+    padding: 5px auto;
 }
 #recent-projects{
-	padding: 70px 0;
-	background-color: #E8E8E8;
+    padding: 70px 0;
+    background-color: #E8E8E8;
 }
 #testimonios{
-	padding: 70px 0;
-	background-color: #e74c3c;
-	color: white;
+    padding: 70px 0;
+    background-color: #e74c3c;
+    color: white;
 }
 #generales{
-	background-color: #34495e;
-	color: #bdc3c7;
-	padding: 50px 0;
+    background-color: #34495e;
+    color: #bdc3c7;
+    padding: 50px 0;
 }
  ul.options{
- 	color: #bdc3c7;
+    color: #bdc3c7;
  }
  a{
- 	color:#bdc3c7; 
+    color:#bdc3c7; 
  }
  a:hover{
- 	color: #E04958;
+    color: #E04958;
  }
  .zoom{
-		transition: 0.6s ease;
- 		-moz-transition: 0.6s ease; /* Firefox */
- 		-webkit-transition: 0.6s ease; /* Chrome - Safari */
- 		-o-transition: 0.6s ease; /* Opera */
-	}
+        transition: 0.6s ease;
+        -moz-transition: 0.6s ease; /* Firefox */
+        -webkit-transition: 0.6s ease; /* Chrome - Safari */
+        -o-transition: 0.6s ease; /* Opera */
+    }
 .zoom:hover{
-		transform : scale(1.3);
-		-moz-transform : scale(1.3); /* Firefox */
-		-webkit-transform : scale(1.3); /* Chrome - Safari */
-		-o-transform : scale(1.3); /* Opera */
-		-ms-transform : scale(1.3); /* IE9 */
-	}
+        transform : scale(1.3);
+        -moz-transform : scale(1.3); /* Firefox */
+        -webkit-transform : scale(1.3); /* Chrome - Safari */
+        -o-transform : scale(1.3); /* Opera */
+        -ms-transform : scale(1.3); /* IE9 */
+    }
 footer{
-	background-color: #26323E;
-	color: white;
-	margin: auto;
-	padding: 30px 0;
+    background-color: #26323E;
+    color: white;
+    margin: auto;
+    padding: 30px 0;
 }
 #footer ul > li {
     display: inline-block;
@@ -145,29 +145,29 @@ footer{
 
 /*********** ABOUT US ************/
 #titulo{
-	background-color: #78E4A6;
-	color: white;
-	font-family: 'Roboto', sans-serif;
+    background-color: #78E4A6;
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
 .other{
-	color: white;
-	padding-top: 70px;
+    color: white;
+    padding-top: 70px;
 }
 .space{
-	padding-top: 70px;
+    padding-top: 70px;
 }
 .text{
-	padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 .pt{
-	padding-top: 110px;
+    padding-top: 110px;
 }
 
 #conocenos {
-	background-color: #f5f5f5;
-	color: #504D4D;
-	font-family: 'Roboto', sans-serif;
-	padding: 50px 0;
+    background-color: #f5f5f5;
+    color: #504D4D;
+    font-family: 'Roboto', sans-serif;
+    padding: 50px 0;
 }
 .progress, .progress .bar {
     background: #fff;
@@ -181,13 +181,13 @@ footer{
     background: #4f7dd4;
 }
 .btn-social.btn-google-plus{
-	background-color: red;
+    background-color: red;
 }
 .btn-social.btn-twitter{
-	background-color: skyblue;
+    background-color: skyblue;
 }
 .btn-social.btn-linkedin{
-	background-color: pink;
+    background-color: pink;
 }
 .btn-social {
     border: 0;
@@ -204,7 +204,7 @@ footer{
     font-weight: 400;
 }
 .def{
-	    padding-bottom: 30px;
+        padding-bottom: 30px;
 }
 .demo-3 figure img {
     
@@ -223,19 +223,19 @@ footer{
     transform:rotateY(0);
 }
 .demo-3 figure figcaption {
-	  -webkit-transform:rotateY(-180deg);
+      -webkit-transform:rotateY(-180deg);
     -moz-transform:rotateY(-180deg);
     transform:rotateY(-180deg);
     -webkit-transition:all .5s;
     -moz-transition:all .5s;
     transition:all .5s;
-	}
+    }
 
 /***************** SERVICES ******************/
 #services{
-	color: #34495e;
-	font-family: 'Roboto', sans-serif;
-	background-color: #fff;
+    color: #34495e;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
 }
 
 .icon-md {
@@ -243,4 +243,31 @@ footer{
     -moz-transition: 500ms;
     -o-transition: 500ms;
     transition: 500ms;
+}
+.background-gris-fondo{
+    background-color: #F9F9F9;
+}
+.background-gris-fondo .primer{
+    margin: 5% 0%;
+}
+.background-gris-fondo form{
+    margin-top: 16%;
+    margin-bottom: 8%;
+}
+.background-gris-fond .col-md-4 h4{
+    margin-top: 9%
+}
+.background-gris-fondo .img img{
+    margin-bottom: 12%
+}
+.background-fondo {
+    background-color: #FDFDFD;
+    padding: 5% 0%;
+}
+#formulario{
+    padding: 70px 0;
+}
+#formulario .message textarea{
+    margin-top: 11%;
+    padding-bottom: 50%; 
 }
